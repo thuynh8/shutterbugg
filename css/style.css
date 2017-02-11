@@ -1,0 +1,73 @@
+.container {
+    max-width: 928px;
+}
+
+h1, h2, p, a {
+  font-family: 'Helvetica Neue Thin', 'HelveticaNeue-Thin', 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+a, .main .btn {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.main {
+    background: url("../images/intro.jpg") no-repeat center center;
+    background-size: cover;
+    height: 650px;
+    padding-top: 55px;
+}
+
+.main p {
+  font-size: 26px;
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+
+.main .btn {
+    background-color: rgba(238,68,95,0.9);
+    color: #fff;
+    padding: 8px 32px;
+    text-decoration: none;
+}
+
+.section .row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.section p {
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.store {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+footer {
+    border-top: 1px solid #dbdbdb;
+    background-color: #f3f3f3;
+    padding: 20px 0px 30px;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555555;
+}
+
+@media (max-width: 500px) {
+    .col-md-6 img {
+        padding: 50px;
+        width: 100%;
+    }
+}
